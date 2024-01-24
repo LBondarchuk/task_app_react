@@ -15,7 +15,7 @@ This calendar application allows you to organize your tasks and track their comp
 
 Clone the repository using the following command:
 
-git clone https://github.com/your-username/task_app_with_calendar.git
+git clone https://github.com/your-username/task_app_react.git
 
 Navigate to the Directory
 Navigate to the cloned directory:
