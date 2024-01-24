@@ -4,7 +4,7 @@ import TaskForm from '../task-form/TaskForm';
 import TaskList from '../task-list/TaskList';
 import { isSameDay } from 'date-fns';
 import 'react-calendar/dist/Calendar.css';
-import { motion, useAnimation } from 'framer-motion';
+import { motion} from 'framer-motion';
 import api from '../../api';
 import st from './TaskApp.module.scss';
 
