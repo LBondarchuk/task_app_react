@@ -1,0 +1,76 @@
+@import '../../utils/styles/variables';
+.container {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 15px;
+  background-color: $gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: background-color 0.5s ease;
+}
+.checkbox {
+  font-size: 32px;
+  color: $background;
+}
+
+.checkbox,
+.edit,
+.save,
+.delete {
+  font-size: 32px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.3);
+  }
+}
+.textConatiner {
+  flex-grow: 2;
+}
+
+.inputEdit {
+  flex-grow: 2;
+  padding: 15px 25px;
+  background-color: $background;
+  border: none;
+  font-size: 18px;
+  color: gray;
+
+  outline-color: $secondary;
+
+  &::placeholder {
+    color: lightgray;
+  }
+}
+
+.title {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.date {
+  color: lightgray;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.edit {
+  color: $background;
+}
+
+.save {
+  color: $secondary;
+}
+
+.delete {
+  color: red;
+}
+
+.completed {
+  background-color: $secondary;
+}
