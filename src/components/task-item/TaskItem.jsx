@@ -42,7 +42,7 @@ function TaskItem({ task, onDelete, onEdit, isLastIndex }) {
 
   return (
     <motion.li
-      className={`${st.container} ${checked ? st.completed : ''}`}
+    className={`${st.container} ${checked && !isEditing ? st.completed : ''}`}
       ref={taskRef}
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
